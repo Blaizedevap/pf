@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    color: white
+}
+/*----------------------------------les case----------------------------------*/
+.contener{
+    width: 490px;
+    height: 490px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+
+/*    border: 2px solid white;*/
+}
+
+
+#pays{
+    width: 238px;
+    background-color: red;
+    background-image: url("img/bg.jpg");
+    text-align: center;
+        padding: 25px;
+}
+#descriptionDuTemps{
+    width: 238px;
+    background-color: blue;
+    text-align: center;
+        padding: 25px;
+}
+#temperatur{
+    width: 238px;
+    background-color: blue;
+    text-align: center;
+        padding: 25px;
+}
+#vitesseDuVent{
+    width: 238px;
+    background-color: green;
+    text-align: center;
+        padding: 25px;
+}
+
+/*----------------------------------les inpute----------------------------------*/
+
+#tville{
+    margin-top: ;
+    width: 130px;
+}
+#tbutton{
+    width: 130px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*----------------------------------la resposivite----------------------------------*/
+
+@media screen and (max-width: 950px){
+        .contener{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+
+/*        border: 2px solid white;*/
+    }
+
+
+    #pays{
+    width: 119px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+        padding: 25px;
+}
+#descriptionDuTemps{
+    width: 119px;
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+        padding: 25px;
+}
+#temperatur{
+    width: 119px;
+    height: 144px;
+    background-color: blue;
+    text-align: center;
+        padding: 25px;
+}
+#vitesseDuVent{
+    width: 119px;
+    height: 144px;
+    background-color: green;
+    text-align: center;
+        padding: 25px;
+}
+
+/*----------------------------------les inpute----------------------------------*/
+
+#tville{
+    margin-top: ;
+    width: 65px;
+}
+#tbutton{
+    width: 65px;
+    text-align: center;
+    margin: 0 auto;
+}
+ 
+}
